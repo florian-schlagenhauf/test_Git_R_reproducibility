@@ -6,3 +6,4 @@ m_1 <-lm(y~x)
 summary(m_1)
 
 # Residual testing
+r <- residuals(m_1)
